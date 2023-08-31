@@ -4,6 +4,11 @@
 
 * [koala](http://koala-app.com/)
 
+## 編譯方式
+
+* 更改檔案: `\bootstrap-3.4.1\css\demo.less`
+* 然後在編譯即可產生以原代碼生成客製化的bootstrap
+
 ## bootstrap柵格系統與原代碼分析
 
 * 流體容器(`container-fluid`)
