@@ -1,7 +1,46 @@
 # 專案介紹 : bootstrap
 
-## 編譯軟體
+## 編譯less軟體
+
 * [koala](http://koala-app.com/)
+
+## bootstrap柵格系統與原代碼分析
+
+* 流體容器
+  * width: auto
+  * 兩側有15px的padding
+
+* 固定容器
+  * 域值:
+    * xs ( <768px )    width: auto
+    * sm ( >=768px )   width: 720px+槽寬(30px)
+    * md ( >=992px )   width: 940px+槽寬(30px)
+    * lg ( >=1200 )    width: 1140px+槽寬(30px)
+    * 兩側有15px的padding
+  * 行
+    * 兩側有-15px的margin
+  * 列
+    * 公共樣式:
+      * 兩側有15px的padding
+      * 相對定位
+    * float
+    * width
+      * 1 ~ 12
+    * left
+      * 0 ~ 12
+      * 0: auto
+    * right
+      * 0 ~ 12
+      * 0: auto
+    * margin-left
+      * 0 ~ 12
+
+* 數線圖
+```text
+    xs(手機)      sm(平板)       md(桌機)      lg(大螢幕)
+  ----------|--------------|---------------|-----------
+          768px           992px           1200px
+```
 
 ## 基本參數
 
